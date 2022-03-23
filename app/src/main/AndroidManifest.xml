@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assignment1application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.ar" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment1Application"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Feedback"
+            android:exported="true" />
+        <activity
+            android:name=".QuizStart"
+            android:exported="true" />
+        <activity
+            android:name=".QuizResult"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".AudioPlayer"
+            android:exported="true" />
+        <activity
+            android:name=".ARCamera"
+            android:exported="true" />
+        <activity
+            android:name=".Gallery"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar"
+            android:exported="false" />
+        <activity
+            android:name=".Camera"
+            android:exported="false" />
+        <activity
+            android:name=".Preferences"
+            android:exported="false" />
+        <activity
+            android:name=".Pheonix"
+            android:exported="false" />
+        <activity
+            android:name=".Shupe"
+            android:exported="false" />
+        <activity
+            android:name=".Ocvist"
+            android:exported="false" />
+        <activity
+            android:name=".MonstersList"
+            android:exported="false" />
+        <activity
+            android:name=".Questions"
+            android:exported="false" />
+        <activity
+            android:name=".Udalryk"
+            android:exported="false" />
+        <activity
+            android:name=".Cerys"
+            android:exported="false" />
+        <activity
+            android:name=".Scoiatael"
+            android:exported="false" />
+        <activity
+            android:name=".Skellige"
+            android:exported="false" />
+        <activity
+            android:name=".Imlerith"
+            android:exported="false" />
+        <activity
+            android:name=".Isengrim"
+            android:exported="false" />
+        <activity
+            android:name=".Joachim"
+            android:exported="false" />
+        <activity
+            android:name=".Vilgefortz"
+            android:exported="false" />
+        <activity
+            android:name=".Nilfgaard"
+            android:exported="false" />
+        <activity
+            android:name=".Keira"
+            android:exported="false" />
+        <activity
+            android:name=".Roche"
+            android:exported="false" />
+        <activity
+            android:name=".Northern_Realms"
+            android:exported="false" />
+        <activity
+            android:name=".Triss"
+            android:exported="false" />
+        <activity
+            android:name=".Yennefer"
+            android:exported="false" />
+        <activity
+            android:name=".Geralt"
+            android:exported="false" />
+        <activity
+            android:name=".Index"
+            android:exported="false" />
+        <activity
+            android:name=".Neutral"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+    </application>
+
+</manifest>

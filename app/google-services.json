@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109976241036",
+    "firebase_url": "https://witcherindex-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "witcherindex",
+    "storage_bucket": "witcherindex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109976241036:android:7948df6c8f5a163892cca9",
+        "android_client_info": {
+          "package_name": "com.example.assignment1application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109976241036-91r82ft9jv40pup6bl86n086jhi4v974.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEhlU-MvCm34fZAZOHm1vcS5r9ySQyMRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109976241036-91r82ft9jv40pup6bl86n086jhi4v974.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

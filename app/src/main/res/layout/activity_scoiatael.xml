@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Scoiatael">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Scoaitael"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <VideoView
+        android:id="@+id/elvenvideo"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Scoiatael Information"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="#C3C0C0"
+        android:fontFamily="@font/witcherfont"
+        android:text="@string/elven_info"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/vilgefortzbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="imlerithButtonClick"
+        android:text="Imlerith"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/joachimbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="isengrimButtonClick"
+        android:text="Isengrim Faoiltiarna"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

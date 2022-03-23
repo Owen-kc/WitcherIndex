@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/witcherfont"
+        android:text="Q1"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/witcherfont"
+        android:text="Question"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/witcherfont"
+        android:onClick="checkAnswer"
+        android:text="Answer1" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/witcherfont"
+        android:onClick="checkAnswer"
+        android:text="Answer2" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/witcherfont"
+        android:onClick="checkAnswer"
+        android:text="Answer3" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/witcherfont"
+        android:onClick="checkAnswer"
+        android:text="Answer4" />
+</LinearLayout>

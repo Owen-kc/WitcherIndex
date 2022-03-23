@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Northern_Realms">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Northern Realms"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <VideoView
+        android:id="@+id/northernrealmsvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Northern Realms Information"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="#C3C0C0"
+        android:fontFamily="@font/witcherfont"
+        android:text="@string/northern_info"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/rocheButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="rocheButtonClick"
+        android:text="Vernon Roche"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/ronvidButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="keiraButtonClick"
+        android:text="Keira Metz"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>

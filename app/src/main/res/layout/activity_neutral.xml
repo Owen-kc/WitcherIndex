@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Neutral" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Neutral"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <VideoView
+        android:id="@+id/neutralvideo"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="#C3C0C0"
+        android:fontFamily="@font/witcherfont"
+        android:text="@string/neutral_info"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Neutral Characters"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/geraltbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#C3C0C0"
+        android:onClick="geraltButtonClick"
+        android:text="Geralt of Rivia"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/yenneferbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#C3C0C0"
+        android:onClick="yenneferButtonClick"
+        android:text="Yennefer of Vengerberg"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/trissbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#C3C0C0"
+        android:onClick="trissButtonClick"
+        android:text="Triss Merigold"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/placeholderbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#802020"
+        android:text="Button" />
+
+</LinearLayout>

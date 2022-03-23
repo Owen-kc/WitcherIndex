@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Yennefer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/witcherfont"
+                android:text="Yennefer of Vengerberg"
+                android:textAlignment="center"
+                android:textColor="#802020"
+                android:textSize="25sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/witcherfont"
+                android:scaleType="fitXY"
+                android:src="@drawable/yennefer" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/witcherfont"
+                android:text="Information"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#802020"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/geraltinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C3C0C0"
+                android:fontFamily="@font/witcherfont"
+                android:text="@string/yennefer_info"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/witcherfont"
+                android:lineSpacingExtra="20sp"
+                android:text="Detailed Information"
+                android:textAlignment="center"
+                android:textColor="#802020"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/hideVernon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goHide"
+                android:text="Hide" />
+
+            <Button
+                android:id="@+id/showVernon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="goShow"
+                android:text="Show" />
+
+            <ImageView
+                android:id="@+id/vilgefortzinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yenneferinfoss" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nilfgaard">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Nilfgaard"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <VideoView
+        android:id="@+id/nilfgaardvid"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/witcherfont"
+        android:text="Nilfgaard Information"
+        android:textAlignment="center"
+        android:textColor="#802020"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:background="#C3C0C0"
+        android:fontFamily="@font/witcherfont"
+        android:text="@string/nilfgaard_info"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/vilgefortzbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="vilgefortzButtonClick"
+        android:text="Vilgefortz of Roggeveen"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/joachimbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C0C0"
+        android:onClick="joachimButtonClick"
+        android:text="Joachim De Wett"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

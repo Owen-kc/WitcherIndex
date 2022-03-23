@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="quiz">Witcher Quiz</string>
+
+
+    <string-array name="quiz_category">
+
+        <item>Random</item>
+
+        <item>Hard</item>
+
+        <item>Medium</item>
+
+        <item>Easy</item>
+
+    </string-array>
+    <string name="app_name" tools:ignore="Typos">The Witcher Index</string>
+
+    <string name="home_info">
+        Welcome to The Witcher Index! This app is designed to help you learn about the characters, setting and world of The Witcher, which is a dark-fantasy world created by Andrezj Sapkowski.
+
+        To see more about the world beyond the index, press back and pick one of the factions to learn more.
+    </string>
+
+    <string name="witcher_info">
+                A witcher, also known as a wiccan, hexer, vedymin, or witchman, is someone who has undergone extensive training, ruthless mental and physical conditioning, and mysterious rituals (which take place at "witcher schools" such as Kaer Morhen) in preparation for becoming an itinerant monster slayer for hire. Geralt, the central character in Andrzej Sapkowskis Witcher series and the subsequent games inspired by them, is said in the stories to be one of the greatest witchers, he is certainly legendary, but whether famous or infamous is more open to interpretation
+    </string>
+
+    <string name="world_info">
+        The unnamed Continent is where the Northern Kingdoms and the Nilfgaardian Empire lie. They are located somewhere on its western coast. Other places on the Continent include the Korath desert, Zerrikania and Haakland. Hannu, Zangwebar, Barsa, and Ofir may or may not be on the same continent as well, though both are described as being "beyond the seas".
+Nordling cartographers for ages had claimed that the southernmost part of this landmass was Gemmera and that the lands below belonged to another continent. By the time of the Northern War II however this belief was abandoned.
+    </string>
+
+    <string name="neutral_info">
+        The best example of neutral characters in the Witcher universe are Witcher and Mages, for different reasons. Witchers are neutral as they are brought up in training to be neutral, and not to interfere with politics. They are taught to kill monsters only. if a Witcher is seen taking sides in a war it would be extremely looked down upon, not only because of their tremendous skill, but because it goes against their code. Mages are neutral as they only look out for themselves. Not only that, but mages are tremendously powerful.
+    </string>
+
+    <string name="geralt_info">
+        Geralt of Rivia was a legendary witcher of the School of the Wolf active throughout the 13th century. He loved the sorceress Yennefer, considered the love of his life despite their tumultuous relationship, and became Ciris adoptive father.
+
+During the Trial of the Grasses, Geralt exhibited unusual tolerance for the mutagens that grant witchers their abilities. Accordingly, Geralt was subjected to further experimental mutagens which rendered his hair white and may have given him greater speed, strength, and stamina than his fellow witchers.
+    </string>
+
+    <string name="yennefer_info" tools:ignore="Typos">
+        Yennefer of Vengerberg, born on Belleteyn in 1173, was a sorceress who lived in Vengerberg, the capital city of Aedirn. She was Geralt of Rivias true love and a mother figure to Ciri, whom she viewed like a daughter to the point that she did everything she could to rescue the girl and keep her from harm.
+
+She helped advise King Demavend of Aedirn (though was never a formal royal advisor), a close friend of Triss Merigold, and the youngest member of the Council of Wizards within the Brotherhood of Sorcerers. After its fall, the Lodge of Sorceresses attempted to recruit her, but they didnt see eye to eye as the Lodge wanted to advance their own political agenda by using Ciri.
+    </string>
+
+    <string name="triss_info">
+        Triss Merigold of Maribor was a legendary Temerian sorceress of the 13th century. Called Fourteenth of the Hill by her contemporaries because she was erroneously thought to have been killed during the Battle of Sodden Hill, she passed into history as Merigold the Fearless. A member of King Foltests royal council along with Fercart and Keira Metz, as well as a founding member of the Lodge of Sorceresses, she was involved in politics for most of her life.
+
+She was friends with Yennefer and the witcher Geralt of Rivia, but also unhappily in love with the latter.[2] Triss took care of Ciri at Kaer Morhen for some time and is like an older sister to her. It was through her intervention that Ciri was not subjected to harmful hormone changes at Kaer Morhen, stripping her of her secondary gender traits.
+    </string>
+
+    <string name="northern_info">
+        The Northern Kingdoms or the Northern Realms, sometimes just referred to as the Four Kingdoms, are a group of human states north of the Amell mountains. Their inhabitants are called Nordlings by the Nilfgaardians (both the ones from the core of the Empire, and from the conquered provinces). Aside from humans, a number of dwarves, elves, gnomes, and halflings live in the Northern Kingdoms as second-class citizens. The kingdoms in the Northern realms are Redania, Kaedwen, Temeria and Cintra.
+    </string>
+
+    <string name="vernon_info">
+        Vernon Roche was the commander of the Blue Stripes, special forces of the Temerian military. Being Temerian, he held his king, Foltest, in high regard. He was also a capable fighter. Vernon Roche never met his father. He spent his childhood living in poverty. Having no money to live on, his mother was forced to work as a prostitute on the streets. Because of that, other children used to fling insults at him, calling him "whoreson"; since that time, Roche reacts aggressively to this particular insult.
+
+Vernon admits that, if not for King Foltest, he would have ended up on the streets either as a vagabond or a drunkard.
+
+Roche has served for four years with the Blue Stripes unit. For his devotion and efficiency he was decorated twice with the Order of Bravery. He was also a veteran from the Battle of Brenna.
+    </string>
+
+    <string name="keira_info">
+        Keira Metz of Carreras was a sorceress and former advisor to King Foltest of Temeria, a role that had also been held by Triss Merigold and Fercart. Keira was born in the city of Carreras, although little is known about her early life. From a young age, Keira studied at the Academy of Aretuza where she was trained in the arts of magic and eventually became a sorceress. In early 1267, Keira was serving as King Foltests advisor when she and other mages in the North learned some of their fellow mages were planning to betray the Brotherhood of Sorcerers for Nilfgaard. Armed with this information, a conclave was called on Thanedd Island under the pretense of figuring out what they should do in regards to their positions as advisors to various rulers. In reality, Keira along with several others, including Philippa Eilhart and Sabrina Glevissig, planned a coup of their own to try and prevent the Nilfgaard supporters from putting their coup into play first. Despite being a mage, Keira cared deeply for the northern kingdoms of which she is from.
+    </string>
+
+    <string name="nilfgaard_info">
+        The Nilfgaardian Empire (Ceasraet in Nilfgaardian language) is the most powerful empire in the history of the known world. It is located in the southern part of the Continent and boasts both a thriving economy and a strong, well-trained army with talented commanders. It has expanded mostly through the conquest of foreign countries, which were then turned into provinces of the Empire. The Empires inhabitants believe that "real" Nilfgaardians are only those born in the heart of the Empire, and not those born in the conquered provinces.
+The provinces are ruled by either stewards or kings (in cases in which a king willingly surrenders, he retains his throne but is subject to the Emperor or just a vassal). The empire has expanded throughout the years, conquering new lands and going as far to the north as the Yaruga River during the reign of Emperor Emhyr var Emreis.
+
+In the Northern Kingdoms, the Empire is portrayed as an overarching antagonist, with many free people of the North expressing hatred towards it with passion.
+    </string>
+
+    <string name="vilgefortz_info">
+        Vilgefortz of Roggeveen (d. 1268) was a Kovirian mage and the de facto leader of the Chapter of the Gift and the Art, the highest ranked of the Brotherhood of Sorcerers. He also had a couple other personal apprentices in the form of Rience and Lydia van Bredevoort, with the latter acting as both his assistant and personal secretary. As an infant, he was abandoned by his parents and left to die in a gutter in Lan Exeter. He was found and raised by druids of the Kovir Circle, and later during certain druidical rituals, his magical gifts were discovered. By accident, a mage visited them. He offered to take Vilgefortz and teach him, feeling his magical energy, though Vilgefortz refused his offer. Later he left the druids, and traveled over the world. He served as a mercenary, and later as a spy, leading him down a dark path as a marauder, robber, rapist, murderer, and finally fugitive fleeing the noose. In the end, he was running to the other end of the world, where he met a sorceress. He had a short romance with her, yet after he grew tired of her personality, he left her and joined the Brotherhood.[1]
+
+In fact, he was not only incredibly ambitious and power-hungry, but also secretly in league with Emhyr var Emreis, the Emperor of Nilfgaard. This had begun many years before the wars, while Emhyr was still hiding under the alias of Duny. Vilgefortzs thirst for unlimited power brought him to the conclusion that he needed the blood of Dunys daughter, Ciri, in order to claim her powers because she was a descendant of Lara Dorren. Using intrigues and his genial intellect, he helped Emhyr rise to the throne. In exchange, Emhyr promised him the North, once it was taken over.
+    </string>
+
+    <string name="joachim_info">
+        Prince Joachim de Wett was a Nilfgaardian noble who commanded the Verden Operations Group during the Second Nilfgaard War. His younger daughter, out of many other women, was rejected by emperor Emhyr var Emreis, so the emperor could marry the false Ciri. Because of that, he and Stefan Skellen formed with other nobles a conspiracy to overthrow Emhyr and put Morvran Voorhis on the Nilfgaardian throne. Emhyr found out about this conspiracy from the traitor, Berengar Leuvaarden, however the sources are saying that Morvran Voorhis became the successor of Emhyr after all. Duke de Wett led his army in the decrepitude way, and his troops treated the Nordling civilians in very cruel way. He caused an uprising in Verden and king Ervyll of Verden, who was collaborating with Nilfgaard, was dethroned. He was slowing down the offensive in III phase of invasion and blocked, by that, the Middle Army, in the long term that was the main cause of the defeat of Nilfgaardian armies in the battle of Brenna. He was sentenced to death by Emhyr var Emreis either for his failures either for attempting to overthrow him.[1]
+    </string>
+
+    <string name="elven_info" tools:ignore="Typos">
+        Scoiatael are non-human guerillas also known as the Squirrels, due to the squirrel tails they wear on their hats/caps, that they primarily live in the forest, and that they eat nuts.
+Racism and deep-seated discrimination against non-humans inflamed a great hatred of humans amongst non-humans in the Northern Kingdoms. Most of the Squirrels were elves, however it isnt uncommon to find halflings, dwarves, gnomes and half-elves among them.Scoiatael were divided into commandos (considered to be a gnomish term) comprised of several fighters.
+
+    </string>
+
+    <string name="imlerith_info">
+        Imlerith was one of the generals of the Wild Hunt. He wielded great power, and was one of the most formidable opponents Geralt encountered. Geralt and Imlerith were also acquaintances during Geralts service with the hunt. The Hunts second general alongside Imlerith was Caranthir Ar-Feiniel. When Ciri returned to the Continent, Imlerith ordered the Crones to keep an eye out for her. The witches took his order literally as they hung human ears throughout Crookback Bog. When Ciri later teleported to Crookback Bog, she fell into the hands of the Crones but escaped, running back into the woods. Imlerith pursued her on horseback but she managed to evade him. Consequently, the elf sustained severe burns to his head and neck. As he took off his glowing red-hot helmet and faced death with a devilish smile, Geralt grabbed hold of the monstrous mace and caved in his head from above, finally ending the cruel and sadistic Aen Elle general for good.
+    </string>
+
+    <string name="isengrim_info">
+        Isengrim Faoiltiarna, also known as the Iron Wolf, was an elf and one of the most experienced members of the Scoiatael. He was a key player in the events at Thanedd Island and later was responsible for the capture of Cahir, who was wanted under the belief that the knight knowingly gave a false Ciri before trying to hide.
+
+Isengrim took later part in the Battle of Brenna where he was in charge of the Vrihedd Brigade with the Colonel rank.
+
+After the Second Nilfgaard Wars end, as a condition of the Peace of Cintra, 32 elven commanders that fought under the Nilfgaardian banner were captured and surrendered to the Northern Kingdoms, including Isengrim. The prisoners were later brought to Dillingen in order to execute them. Unlike his mates, Isengrim managed to escape and fled to the foot of the Elskerdeg Pass, where he met with Sigismund Dijkstra and Boreas Mun, both fugitives for their own reasons. The three of them formed an unlikely traveling party, heading East, towards Zerrikania or even Haakland, presumably leaving the territories of the Nilfgaard Empire and the Northern Kingdoms for good.
+    </string>
+
+    <string name="skellige_info">
+        Skellige, commonly referred to as the Skellige Isles or the Isles of Skellige, is an archipelago and one of the Northern Kingdoms. The group of six islands is situated in the Great Sea, off the coast of Cintra and southwest of Cidaris and Verden. Its legendary, famous for the unrivaled corsairs and swift longships that sail many seas.
+Its people are united under the King of the Skellige Isles, whos elected by the jarls of the seven major clans during traditional moots. In practice, however, the kings are from the same clan or at least related.
+    </string>
+
+    <string name="udalryk_info">
+        Udalryk was born as the eldest son of the Jarl of Spikeroog though was soon joined by a younger brother, Aki. While the two got along well enough, their father appeared to favor Aki, going as far as bestowing the familys heirloom sword Brokvar on the younger son rather than following Skelligan custom and giving it to the firstborn son, which was considered to be a serious insult to Udalryk. Enraged at this, Udalryk publicly questioned his fathers decision, breaking one of Skelliges sacred laws in doing so, and was subsequently punished by being chained to a pile in the sea for three days. Afterwards, to try and make amends, he and Aki went out on a sailing trip near Ululas Needle when a storm broke out and Aki fell overboard. Udalryk, who had his hands full with the sails, didnt hear his brothers cry for help until it was too late and Aki drowned.
+
+Having failed to save his brother, Udalryk was overcome with immense guilt and sometime afterwards began to hear voices in his sleep that claimed they were messengers from the gods. These voices plagued Udalryk with strange visions and commanded he harm himself as a sacrifice to the gods, like cutting himself deep enough to leave scars, though he viewed this as a gift to hear from the gods so directly.
+
+Eventually he became the jarl of Clan Brokvar and by 1272 had his own son, who he named Aki in honor of his deceased brother.
+
+    </string>
+
+    <string name="cerys_info">
+        Cerys an Craite, aka "Sparrowhawk", was the daughter of Crach an Craite, and Hjalmars younger sister. The young woman was a courageous islander like her father and had inherited all his stubbornness. She was very self-confident and always ready to prove she could fulfill any task as good as a man, which caused her and Hjalmar to have a constant, but good-natured, rivalry. However, unlike her brother, she appeared more levelheaded, choosing to investigate and think things through first before jumping to conclusions. In the quest Possession, Cerys sails to Spikeroog to free Jarl Udalryk from a curse. Thanks to Geralts assistance, her endeavour is successful and the Hym is expelled from Udalryk, ending his afflictions. Later on, she is present at the ill-fated feast at Kaer Trolde. If Geralt decides to help her, she adopts a methodical approach and ultimately succeeds in uncovering the culprit: Birna Bran. For her actions, Cerys is subsequently chosen to be the queen of Skellige. Under her rule, Skellige prospers and becomes a much more peaceful place. If Cerys does indeed become queen, Geralt can approach her to ask for assistance in the upcoming battle at Kaer Morhen; while she does not go herself, she sends Hjalmar to help.
+    </string>
+
+    <string name="calendar_info">
+        In The Witcher, The elven calendar divides the year into eight parts, collectively called savaeds; most of them share the name with the holiday that starts them.
+
+The elven New Year is celebrated on Saovine.
+    </string>
+</resources>
